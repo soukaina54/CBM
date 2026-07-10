@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBM | Construction & Building Management</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--====================-->
+    <!-- LOADER -->
+    <!--====================-->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <img src="images/logo.jpeg">
+
+            <h2>CBM</h2>
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+    <!--====================-->
+    <!-- SCROLL PROGRESS -->
+    <!--====================-->
+
+    <div id="progress-bar"></div>
+
+    <!--====================-->
+    <!-- HEADER -->
+    <!--====================-->
+
+    <header id="header">
+
+        <nav>
+
+            <div class="logo">
+
+                <img src="images/logo.jpeg">
+
+                <h2>CBM</h2>
+
+            </div>
+
+            <ul id="menu">
+
+                <li><a href="#home" data-key="home_menu">Home</a></li>
+
+                <li><a href="#about" data-key="about_menu">About</a></li>
+
+                <li><a href="#services" data-key="services_menu">Services</a></li>
+
+                <li><a href="#projects" data-key="projects_menu">Projects</a></li>
+
+                <!-- <li><a href="#contact">Contact</a></li> -->
+
+            </ul>
+
+            <div class="right-nav">
+                <div class="language-switcher">
+                    <button type="button" onclick="setLanguage('en')">EN</button>
+                    <button type="button" onclick="setLanguage('fr')">FR</button>
+                    <button type="button" onclick="setLanguage('ar')">AR</button>
+                </div>
+            </div>
+
+            <button id="darkMode">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+            <div id="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!--====================-->
+    <!-- HERO -->
+    <!--====================-->
+
+    <section class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <h4 data-key="hero_welcome">WELCOME TO CBM</h4>
+            <h1 class="typing" data-key="hero_title">Construction & Building Management</h1>
+            <p data-key="hero_subtitle">
+                We provide innovative construction solutions with quality, safety and excellence for residential,
+                commercial and industrial projects.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn" data-key="contact_btn">Contact Us</a>
+                <a href="#projects" class="btn-outline" data-key="projects_title">Our Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!--====================-->
+    <!-- ABOUT -->
+    <!--====================-->
+
+    <section class="about" id="about">
+
+        <div class="container">
+    
+            <div class="about-image" data-aos="fade-right">
+    
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd">
+    
+            </div>
+    
+            <div class="about-content" data-aos="fade-left">
+    
+                <h5 data-key="about_company">ABOUT COMPANY</h5>
+    
+                <h2 data-key="about_title">
+                    Building Excellence
+                </h2>
+    
+                <p data-key="about_text">
+    
+                    CBM specializes in construction,
+                    renovation,
+                    engineering,
+                    building maintenance,
+                    interior finishing,
+                    and project management.
+    
+                    We deliver sustainable,
+                    high-quality construction solutions
+                    tailored to every client.
+    
+                </p>
+    
+                <div class="about-list">
+    
+                    <div>
+    
+                        <i class="fa-solid fa-circle-check"></i>
+    
+                        <span data-key="quality_materials">Quality Materials</span>
+    
+                    </div>
+    
+                    <div>
+    
+                        <i class="fa-solid fa-circle-check"></i>
+    
+                        <span data-key="professional_team">Professional Team</span>
+    
+                    </div>
+    
+                    <div>
+    
+                        <i class="fa-solid fa-circle-check"></i>
+    
+                        <span data-key="modern_equipment">Modern Equipment</span>
+    
+                    </div>
+    
+                    <div>
+    
+                        <i class="fa-solid fa-circle-check"></i>
+    
+                        <span data-key="safety_first">Safety First</span>
+    
+                    </div>
+    
+                </div>
+    
+                <a href="#services" class="btn" data-key="learn_more">Learn More</a>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <!--====================-->
+    <!-- SERVICES -->
+    <!--====================-->
+
+    <section class="services" id="services">
+
+        <div class="section-title" data-aos="fade-up">
+    
+            <h5 data-key="services_small">OUR SERVICES</h5>
+    
+            <h2 data-key="services_title">What We Do</h2>
+    
+            <p data-key="services_text">
+    
+                Complete construction solutions
+                for residential,
+                commercial,
+                and industrial projects.
+    
+            </p>
+    
+        </div>
+    
+        <div class="services-grid">
+    
+            <div class="card" data-aos="zoom-in">
+    
+                <i class="fa-solid fa-building"></i>
+    
+                <h3 data-key="construction">Construction</h3>
+    
+                <p data-key="construction_desc">
+    
+                    Complete project management
+                    from planning to delivery.
+    
+                </p>
+    
+            </div>
+    
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+    
+                <i class="fa-solid fa-compass-drafting"></i>
+    
+                <h3 data-key="architecture">Architecture</h3>
+    
+                <p data-key="architecture_desc">
+    
+                    Modern architectural design
+                    for all building types.
+    
+                </p>
+    
+            </div>
+    
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+    
+                <i class="fa-solid fa-helmet-safety"></i>
+    
+                <h3 data-key="site_management">Site Management</h3>
+    
+                <p data-key="site_management_desc">
+    
+                    Professional supervision
+                    throughout construction.
+    
+                </p>
+    
+            </div>
+    
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+    
+                <i class="fa-solid fa-house"></i>
+    
+                <h3 data-key="residential">Residential</h3>
+    
+                <p data-key="residential_desc">
+    
+                    Luxury houses
+                    built with premium materials.
+    
+                </p>
+    
+            </div>
+    
+            <div class="card" data-aos="zoom-in" data-aos-delay="400">
+    
+                <i class="fa-solid fa-city"></i>
+    
+                <h3 data-key="commercial">Commercial</h3>
+    
+                <p data-key="commercial_desc">
+    
+                    Offices,
+                    hotels,
+                    shopping centers,
+                    and more.
+    
+                </p>
+    
+            </div>
+    
+            <div class="card" data-aos="zoom-in" data-aos-delay="500">
+    
+                <i class="fa-solid fa-paint-roller"></i>
+    
+                <h3 data-key="finishing">Interior Finishing</h3>
+    
+                <p data-key="finishing_desc">
+    
+                    Painting,
+                    flooring,
+                    decoration
+                    and finishing works.
+    
+                </p>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <!-- =========================
+PROJECTS
+========================== -->
+
+<section class="projects" id="projects">
+
+    <div class="section-title" data-aos="fade-up">
+      <h5 data-key="projects_small">OUR PROJECTS</h5>
+      <h2 data-key="projects_title">Latest Projects</h2>
+      <p data-key="projects_text">
+        Discover some of our completed construction and building management projects.
+      </p>
+    </div>
+  
+    <div class="projects-grid">
+  
+      <div class="project" data-aos="zoom-in">
+        <img src="images/image1.jpeg" alt="">
+        <div class="overlay">
+          <h3 data-key="project1">Residential Building</h3>
+          <p data-key="project1_desc">Modern family residence.</p>
+          <a href="#" data-key="view_project">View Project</a>
+        </div>
+      </div>
+  
+      <div class="project" data-aos="zoom-in" data-aos-delay="150">
+        <img src="images/image2.jpeg" alt="">
+        <div class="overlay">
+          <h3 data-key="project2">Commercial Center</h3>
+          <p data-key="project2_desc">Large commercial project.</p>
+          <a href="#" data-key="view_project">View Project</a>
+        </div>
+      </div>
+  
+      <div class="project" data-aos="zoom-in" data-aos-delay="300">
+        <img src="images/image3.jpeg" alt="">
+        <div class="overlay">
+          <h3 data-key="project3">Interior Design</h3>
+          <p data-key="project3_desc">Luxury finishing works.</p>
+          <a href="#" data-key="view_project">View Project</a>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+    <!-- 
+
+<section class="contact" id="contact">
+
+    <div class="contact-container">
+
+        
+        <div class="contact-info" data-aos="fade-right">
+
+            <h2>Let's Build Your Dream</h2>
+
+            <p>
+                Contact us today for your next construction project.
+                Our experts are ready to help you.
+            </p>
+
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                Casablanca, Morocco
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                +212 660 797322
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                cbmcampany99@gmail.com
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+ -->
+
+    <!-- =========================
+FOOTER
+========================== -->
+
+<footer>
+    <div class="footer-container">
+  
+      <div class="footer-box">
+        <h3 data-key="footer_brand">CBM</h3>
+        <p data-key="footer_desc">
+          Professional Construction & Building Management Company.
+        </p>
+        <div class="socials">
+          <a href="https://www.instagram.com/cbm._co?igsh=MTBlc3luaHgyams4aA==">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+  
+      <div class="footer-box">
+        <h3 data-key="footer_quick_links">Quick Links</h3>
+        <a href="#home" data-key="home_menu">Home</a><br>
+        <a href="#about" data-key="about_menu">About</a><br>
+        <a href="#services" data-key="services_menu">Services</a><br>
+        <a href="#projects" data-key="projects_menu">Projects</a><br>
+        <a href="#contact" data-key="contact_menu">Contact</a>
+      </div>
+  
+      <div class="footer-box">
+        <h3 data-key="footer_services">Services</h3>
+        <p data-key="service1">Construction</p>
+        <p data-key="service2">Architecture</p>
+        <p data-key="service3">Renovation</p>
+        <p data-key="service4">Interior Design</p>
+      </div>
+  
+      <div class="footer-box">
+        <h3 data-key="footer_contact">Contact</h3>
+        <p data-key="footer_location">Casablanca, Morocco</p>
+        <p data-key="footer_phone">+212 660 797322</p>
+        <p data-key="footer_email">cbmcompany99@gmail.com</p>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p data-key="footer_rights">
+        © 2026 CBM Construction & Building Management. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+  
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
