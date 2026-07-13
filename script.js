@@ -268,18 +268,18 @@ const translations = {
   }
 };
   
-  function setLanguage(lang) {
-    document.documentElement.lang = lang;
-  
-    document.body.dir = lang === "ar" ? "rtl" : "ltr";
-  
-    document.querySelectorAll("[data-key]").forEach(el => {
+function setLanguage(lang) {
+  document.documentElement.lang = lang;
+
+  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+
+  document.querySelectorAll("[data-key]").forEach(el => {
       const key = el.getAttribute("data-key");
       if (translations[lang][key]) {
-        el.textContent = translations[lang][key];
+          el.textContent = translations[lang][key];
       }
-    });
-  }
+  });
+}
   
   // Wait until the DOM is fully loaded
   document.addEventListener("DOMContentLoaded", () => {
